@@ -1,0 +1,11 @@
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\PilasColasPABLO\PilasColasPABLO\bin\Debug\PilasColasPABLO.exe.config
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\PilasColasPABLO\PilasColasPABLO\bin\Debug\PilasColasPABLO.exe
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\PilasColasPABLO\PilasColasPABLO\bin\Debug\PilasColasPABLO.pdb
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\PilasColasPABLO\PilasColasPABLO\obj\Debug\PilasColasPABLO.csproj.AssemblyReference.cache
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\PilasColasPABLO\PilasColasPABLO\obj\Debug\PilasColasPABLO.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\PilasColasPABLO\PilasColasPABLO\obj\Debug\PilasColasPABLO.Form1.resources
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\PilasColasPABLO\PilasColasPABLO\obj\Debug\PilasColasPABLO.Properties.Resources.resources
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\PilasColasPABLO\PilasColasPABLO\obj\Debug\PilasColasPABLO.csproj.GenerateResource.cache
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\PilasColasPABLO\PilasColasPABLO\obj\Debug\PilasColasPABLO.csproj.CoreCompileInputs.cache
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\PilasColasPABLO\PilasColasPABLO\obj\Debug\PilasColasPABLO.exe
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\PilasColasPABLO\PilasColasPABLO\obj\Debug\PilasColasPABLO.pdb

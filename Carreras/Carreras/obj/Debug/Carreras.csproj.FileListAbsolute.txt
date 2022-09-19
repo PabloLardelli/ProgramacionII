@@ -1,0 +1,11 @@
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\Carreras\Carreras\bin\Debug\Carreras.exe.config
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\Carreras\Carreras\bin\Debug\Carreras.exe
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\Carreras\Carreras\bin\Debug\Carreras.pdb
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\Carreras\Carreras\obj\Debug\Carreras.csproj.AssemblyReference.cache
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\Carreras\Carreras\obj\Debug\Carreras.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\Carreras\Carreras\obj\Debug\Carreras.Frm_Alta_Carrera.resources
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\Carreras\Carreras\obj\Debug\Carreras.Properties.Resources.resources
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\Carreras\Carreras\obj\Debug\Carreras.csproj.GenerateResource.cache
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\Carreras\Carreras\obj\Debug\Carreras.csproj.CoreCompileInputs.cache
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\Carreras\Carreras\obj\Debug\Carreras.exe
+C:\Users\Anahi\OneDrive\Escritorio\TUP\Repositorios GIT\Programacion II\Carreras\Carreras\obj\Debug\Carreras.pdb
