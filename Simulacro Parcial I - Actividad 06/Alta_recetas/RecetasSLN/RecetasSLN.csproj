@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="datos\HelperDB.cs" />
+    <Compile Include="dominio\DetalleReceta.cs" />
+    <Compile Include="dominio\Ingrediente.cs" />
+    <Compile Include="dominio\Receta.cs" />
     <Compile Include="presentación\FrmConsultarRecetas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,9 +83,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="datos\" />
-    <Folder Include="dominio\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
