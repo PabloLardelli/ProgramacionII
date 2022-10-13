@@ -1,5 +1,7 @@
 ﻿using RecetasSLN.datos;
 using RecetasSLN.dominio;
+using RecetasSLN.Servicios.Implementacion;
+using RecetasSLN.Servicios.Interfaz;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,12 +17,13 @@ namespace RecetasSLN.presentación
     public partial class FrmConsultarRecetas : Form
     {
         private Receta nuevo;
-        private HelperDB ayudante;
+        private IServicio servicio
+            ;
         public FrmConsultarRecetas()
         {
             InitializeComponent();
             nuevo = new Receta();
-            ayudante = new HelperDB();
+            servicio = new Servicio();
         }
 
         private void FrmConsultarRecetas_Load(object sender, EventArgs e)
@@ -31,7 +34,7 @@ namespace RecetasSLN.presentación
         private void CargarTipo()
         {
             DataTable tabla = new DataTable();
-            tabla = ayudante.EjecutarSql();
+            tabla = servicio.ObtenerIngredientes();
 
             if (tabla != null)
             {
@@ -45,7 +48,7 @@ namespace RecetasSLN.presentación
 
         private int ProximaReceta()
         {
-            int proximo = ayudante.ConsultaUltimo();
+            int proximo = servicio.ProximaReceta();
             return proximo;
         }
 
@@ -106,7 +109,7 @@ namespace RecetasSLN.presentación
             string cheff = txtCheff.Text;
             int tipo = Convert.ToInt32(txtTipo.Text);
 
-            if (ayudante.Confirmar(nuevo))
+            if (servicio.CrearReceta(nuevo))
             {
                 MessageBox.Show("La receta se cargo con exito!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
@@ -119,7 +122,7 @@ namespace RecetasSLN.presentación
 
         private void Proximo()
         {
-            int next = ayudante.ProximaReceta();
+            int next = servicio.ProximaReceta();
             if (next>0)
             {
                 label4.Text = "Presupuesto Nº: " + next.ToString();

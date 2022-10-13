@@ -1,4 +1,5 @@
 ﻿using RecetasSLN.dominio;
+using RecetasSLN.Servicios.Interfaz;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace RecetasSLN.datos
 {
-    class HelperDB
+    class HelperDB : IServicio
     {
         private SqlConnection cnn;
 
@@ -27,21 +28,6 @@ namespace RecetasSLN.datos
             tabla.Load(cmd.ExecuteReader());
             cnn.Close();
             return tabla;
-        }
-
-        public int ConsultaUltimo()
-        {
-            int ultimo;
-            cnn.Open();
-            SqlCommand cmd = new SqlCommand("SP_ULTIMA_RECETA", cnn);
-            cmd.CommandType = CommandType.StoredProcedure;
-            SqlParameter pOut = new SqlParameter("@next", SqlDbType.Int);
-            pOut.Direction = ParameterDirection.Output;
-            cmd.Parameters.Add(pOut);
-            cmd.ExecuteReader();
-
-            ultimo = (int)pOut.Value;
-            return ultimo;
         }
 
         public int ProximaReceta()
@@ -85,7 +71,7 @@ namespace RecetasSLN.datos
                     SqlCommand cmdDet = new SqlCommand("SP_INSERTAR_DETALLES",cnn,t);
                     cmdDet.CommandType = CommandType.StoredProcedure;
                     cmdDet.Parameters.AddWithValue("@id_receta",receta_nro);
-                    cmdDet.Parameters.AddWithValue("@id_ingrediente", det.Ingrediente);
+                    cmdDet.Parameters.AddWithValue("@id_ingrediente", det.Ingrediente.IngredienteId);
                     cmdDet.Parameters.AddWithValue("@cantidad", det.Cantidad);
 
                     //cDetalle++;

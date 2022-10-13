@@ -58,6 +58,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servicios\Implementacion\Servicio.cs" />
+    <Compile Include="Servicios\Interfaz\IServicio.cs" />
     <EmbeddedResource Include="presentación\FrmConsultarRecetas.resx">
       <DependentUpon>FrmConsultarRecetas.cs</DependentUpon>
     </EmbeddedResource>
